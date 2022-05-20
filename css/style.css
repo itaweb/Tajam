@@ -1,0 +1,27 @@
+/* Разметка для всего сайта */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: #413d4b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
+
+/* Разметка для header */
+.header-wrap {
+  background: #332954 url(../img/header_image.jpg);
+}
+.header {
+  width: 950px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
