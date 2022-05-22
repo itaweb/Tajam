@@ -25,3 +25,45 @@ h4 {
   padding: 0 10px;
   box-sizing: border-box;
 }
+
+.header-top {
+  overflow: hidden;
+  padding-top: 15px;
+  margin-bottom: 160px;
+}
+
+.logo {
+  float: left;
+}
+
+.menu {
+  float: right;
+  list-style: none;
+  padding-top: 15px;
+}
+
+.menu li {
+  float: left;
+  margin-left: 25px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.header-main {
+  color: #fff;
+  text-align: center;
+}
+
+.header-main h1 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.header-main h2 {
+}
