@@ -18,6 +18,7 @@ h4 {
 /* Разметка для header */
 .header-wrap {
   background: #332954 url(../img/header_image.jpg);
+  background-size: cover;
 }
 .header {
   width: 950px;
@@ -58,6 +59,9 @@ h4 {
 .header-main {
   color: #fff;
   text-align: center;
+  width: 750px;
+  margin: 0 auto;
+  padding-bottom: 205px;
 }
 
 .header-main h1 {
@@ -66,4 +70,17 @@ h4 {
 }
 
 .header-main h2 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  line-height: 24px;
+}
+
+.link-button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #00e0d0;
+  border: 1px solid #00e0d0;
 }
